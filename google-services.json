@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "107550472636",
+    "project_id": "msimanga-2a9ad",
+    "storage_bucket": "msimanga-2a9ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107550472636:android:5164e202a855a3a75253b9",
+        "android_client_info": {
+          "package_name": "com.example.msimangapart3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3l28_xsvPu--Q8S1PHwMwWzrWkcOQRbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

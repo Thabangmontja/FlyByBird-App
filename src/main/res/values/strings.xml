@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FLYBYBIRD</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoieW9uZWxha2VubnkiLCJhIjoiY2xuMm5kMmxnMGJ5cTJpcDllMmZram9rdiJ9.gA_p6X2TG--UoEFsQkq92A</string>
+    <string name="outdoorView">Outdoor View</string>
+    <string name="trafficView">Traffic View</string>
+    <string name="streetView">Street View</string>
+    <string name="satelliteView">Satellite View</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="homeview">Home View</string>
+
+</resources>

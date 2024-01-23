@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityMap"
+    android:background="@drawable/msimanga">
+
+
+    <!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/setRoute"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="10sp"-->
+<!--        android:layout_marginEnd="10sp"-->
+<!--        android:layout_marginBottom="20sp"-->
+<!--        android:text="Cancel Route" />-->
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:rowCount="1"
+        app:layout_constraintBottom_toTopOf="@id/mapView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/homeView"
+            android:layout_width="62dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:outlineAmbientShadowColor="@color/red"
+            android:contentDescription="@string/homeview"
+            />
+
+        <ImageButton
+            android:id="@+id/satelliteView"
+            android:outlineAmbientShadowColor="@color/red"
+            android:layout_width="62dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/satelliteView"
+           />
+
+        <ImageButton
+            android:id="@+id/settings"
+            android:layout_width="62dp"
+            android:layout_height="match_parent"
+            android:outlineAmbientShadowColor="@color/red"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="settings"
+             />
+
+        <ImageButton
+            android:id="@+id/saveBird"
+            android:layout_width="62dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:outlineAmbientShadowColor="@color/red"
+            android:layout_marginTop="4dp"
+            android:contentDescription="save"
+           />
+
+
+        <ImageButton
+            android:id="@+id/viewSaved"
+            android:layout_width="62dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:outlineAmbientShadowColor="@color/red"
+            android:layout_marginTop="4dp"
+            android:contentDescription="viewSaved"
+             />
+
+    </GridLayout>
+
+    <com.mapbox.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="598dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="0dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/focusLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16sp"
+        android:layout_marginBottom="16sp"
+         />
+
+</RelativeLayout>
